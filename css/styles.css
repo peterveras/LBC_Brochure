@@ -4730,6 +4730,7 @@ textarea.form-control-lg {
   color: #0064DC;
   background:#D6EEFF;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  border-radius: 100px;
 }
 .accordion-button:not(.collapsed)::after {
 
