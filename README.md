@@ -1,2 +1,2 @@
-# curso-uxm
-Curso de UX Management de Giro54
+# LBC
+Brochure template for products
