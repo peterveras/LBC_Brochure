@@ -2455,7 +2455,7 @@ textarea.form-control-lg {
   background-color: #fff;
   border-color: black;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgb(253 238 23 / 83%);
+  box-shadow: 0 0 0 0.25rem rgba(41, 55, 240, 0.25);
 }
 .form-select[multiple], .form-select[size]:not([size="1"]) {
   padding-right: 0.75rem;

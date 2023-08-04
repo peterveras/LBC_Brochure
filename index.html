@@ -316,6 +316,89 @@
         </div>
     </section>
     <!-- Mas Información Small Screens-->
+
+    <!-- Formulario de Datos de Interesados - Start -->
+    <section class="bg-info">
+        <div class="container">
+            <div class="col-sm-12 col-lg-6 offset-lg-3">
+                <h4 class="lh-1 mb-3">Contáctanos</h4>
+                <p class="mb-5 fw-normal">
+                    Formulario de datos de
+                    interesados
+                </p>
+                <form id="mktoForm_1050" method="post">
+                    <!--Lenguaje de mensaje de confirmacion -->
+                    <input type="hidden" name="_language" value="es" />
+
+                    <!--Subject Line-->
+                    <input type="hidden" name="subject." value="Formulario de datos de
+                    interesados">
+
+                    <div class="d-block">
+
+                        <label for="name" class="pb-2">Nombre completo</label>
+                        <input type="name" id="nombre-completo" class="form-control" aria-describedby="Nombres"
+                            placeholder="Nombres y appellidos" name="name" required>
+
+                        <label for="date" class="pb-2 pt-4">Fecha de nacimiento</label>
+                        <input type="date" id="fecha-de-nacimiento" class="form-control"
+                            aria-describedby="Fecha de nacimiento" placeholder="DD/MM/AAAA" name="date" required>
+
+
+                        <label for="tel" class="pb-2 pt-4">Nº de celular</label>
+                        <input type="tel" class="form-control" placeholder="000-0000" name="tel" maxlength="12"
+                            minlength="6" required></input>
+                        <label for="Ciudad" class="pb-2 pt-4">Ciudad</label>
+                        <select class="form-select form-control" name="Ciudades" aria-label="Ciudades">
+                            <option selected>Selecciona tu ciudad</option>
+                            <option value="Santa Cruz de la Sierra">Santa Cruz de la Sierra</option>
+                            <option value="El Alto">El Alto</option>
+                            <option value="La Paz">La Paz</option>
+                            <option value="Cochabamba">Cochabamba</option>
+                            <option value="Oruro">Oruro</option>
+                            <option value="Sucre">Sucre</option>
+                            <option value="Tarija">Tarija</option>
+                            <option value="Potosí">Potosí</option>
+                            <option value="Montero">Montero</option>
+                            <option value="Sacaba">Sacaba</option>
+                            <option value="Warnes">Warnes</option>
+                            <option value="Quillacollo">Quillacollo</option>
+                            <option value="La Guardia">La Guardia</option>
+                            <option value="Trinidad">Trinidad</option>
+                        </select>
+
+                        <!-- Buttons Visible only on large screens START -->
+                        <div
+                            class="d-flex flex-column flex-lg-row align-items-center d-none d-md-block d-lg-block d-xl-block d-xs-none d-sm-none pt-5">
+                            <button type="submit" value="submit"
+                                class="btn btn-primary btn-lg rounded-pill mb-2 mb-lg-0 px-5">
+                                <span class="align-items-center">Enviar formulario&nbsp;&nbsp;</span>
+                                <i class="bi-send me-2"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <!-- Buttons Visible only on large screens END -->
+
+                        <!-- Buttons Visible only on small screens full width block buttons START -->
+                        <div
+                            class="px-2 row pt-5 align-items-center align-self-center d-sm-block d-xs-block d-md-none d-lg-none d-xl-none">
+                            <button type="submit" value="submit"
+                                class="btn btn-primary btn-block btn-lg rounded-pill mb-2 mb-lg-0">
+                                <span class="align-items-center">
+                                    <span>Enviar formulario&nbsp;&nbsp;</span>
+                                    <i class="bi-send me-2"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <!-- Buttons Visible only on small screens full width block buttons END -->
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Footer-->
     <footer class="bg-azul py-2">
         <div class="container px-4">
