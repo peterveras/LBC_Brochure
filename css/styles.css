@@ -2238,7 +2238,7 @@ progress {
   background-color: #fff;
   border-color: black;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(253, 238, 23, 0.832);
+  box-shadow: 0 0 0 0.25rem #0063dc6b;
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -3051,15 +3051,15 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #000000;
-  background-color: #FDEE17;
-  border-color: #FDEE17;
+  color: #fff;
+  background-color: #7E1C99;
+  border-color: #7E1C99;
   font-weight: 400;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #B670CB;
+  border-color: #B670CB;
 }
 
 .btn-primary-2 {
@@ -7988,7 +7988,7 @@ textarea.form-control-lg {
 }
 
 .rounded-pill {
-  border-radius: 0.3rem !important;
+  border-radius: 2rem !important;
 }
 
 .rounded-top {
